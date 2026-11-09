@@ -1,0 +1,36 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 170px), 1fr));
+  gap: var(--space-6) var(--space-5);
+  padding: var(--space-2);
+  margin: 0;
+  list-style: none;
+}
+
+.tip {
+  margin-top: var(--space-3);
+  text-align: center;
+  color: var(--color-ink-soft);
+  font-size: 0.95rem;
+}
+
+.prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.bigLetter {
+  width: 200px;
+  height: 200px;
+  border: 0;
+  border-radius: var(--radius-lg);
+  background: var(--tone-purple-soft);
+  box-shadow: inset 0 0 0 4px var(--tone-purple);
+  font-family: var(--font-letter);
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.mouth {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+}
+
+.framed {
+  border-radius: var(--radius-lg);
+  box-shadow: inset 0 0 0 3px var(--mouth-frame);
+}
